@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ChukYamoStore',
     'category',
+    'accounts'
 ]
 
 MIDDLEWARE = [
@@ -71,6 +72,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'ChukYamoStoreProject.wsgi.application'
+
+AUTH_USER_MODEL = 'accounts.Account'
 
 
 # Database
