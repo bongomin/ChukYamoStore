@@ -1,0 +1,67 @@
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore the local settings file
+myproject/settings/local.py
+
+# Ignore the virtual environment
+venv/
+
+# Ignore SQLite database
+db.sqlite3
+
+# Ignore media and static files (if using other services for serving these)
+media/
+static/
+
+# Ignore secret keys (e.g., for development purposes)
+*.key
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore the database configuration file
+myproject/.env
+
+# Ignore logs and other generated files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.orig
+*.rej
+*.swp
+*.tmp
+*.bak
+*.pyc
+
+# Ignore the pipenv lock file (if using pipenv)
+Pipfile.lock
+
+# Ignore database backups (if any)
+*.bak
+
+# Ignore any IDE-specific files or directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore .pyc files in all directories
+__pycache__/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled files
+*.mo
+
+# Ignore environment files
+.env
